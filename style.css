@@ -128,7 +128,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #89cff0;
+    color: white;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -405,7 +405,7 @@ section .title::after{
 }
 /* aboutme section styling */
 .aboutme .title::after{
-    content: "who with me";
+    content: "Members";
 }
 .aboutme .carousel .card{
     background: transparent;
