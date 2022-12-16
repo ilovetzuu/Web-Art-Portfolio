@@ -82,6 +82,66 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+    var typed = new Typed(".typing-8", {
+        strings: ["Diamante", "And","Vargas"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-9", {
+        strings: ["Artchie", "Manliclic"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-10", {
+        strings: ["Rodelito", "Barbosa","Jr."],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-11", {
+        strings: ["John", "Paolo","Aranda"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-12", {
+        strings: ["Princess", "Suzane","Delfin"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });var typed = new Typed(".typing-14", {
+        strings: ["John", "Cedric","Vargas"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-13", {
+        strings: ["John", "Paolo","Aranda"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-15", {
+        strings: ["Rodelito", "Barbosa","Jr."],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-16", {
+        strings: ["Artchie", "Manliclic"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-17", {
+        strings: ["James", "Michael","Diamante"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    
 
     // owl carousel script
     $('.carousel').owlCarousel({

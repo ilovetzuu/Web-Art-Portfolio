@@ -342,77 +342,66 @@ section .title::after{
 
 /*  soul section styling */
 
-.song .title::after{
+.soul .title::after{
     content: "Summary";
 }
-.song .song-content .column{
-    width: calc(50% - 30px);
-}
-.song .song-content .left .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.song .song-content .left p{
-    text-align: justify;
-}
-.song .song-content .left a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
+.soul .carousel .card{
+    background: transparent;
     border-radius: 6px;
-    border: 2px solid crimson;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
     transition: all 0.3s ease;
 }
-.song .song-content .left a:hover{
-    color: crimson;
-    background: none;
+.soul .carousel .card:hover{
+    background: #89cff0;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
+.soul .carousel .card .box{
     display: flex;
-    margin-bottom: 5px;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    transition: all 0.3s ease;
 }
-.skills .skills-content .right span{
+.soul .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.soul .carousel .card .text{
+    font-size: 25px;
     font-weight: 500;
-    font-size: 18px;
+    margin: 10px 0 7px 0;
 }
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
+.soul .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #89cff0;
+    transition: all 0.3s ease;
 }
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
+.soul .carousel .card:hover img{
+    border-color: #fff;
 }
-.skills-content .right .html::before{
-    width: 90%;
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
 }
-.skills-content .right .css::before{
-    width: 60%;
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #89cff0!important;
+    transition: all 0.3s ease;
 }
-.skills-content .right .js::before{
-    width: 80%;
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
 }
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
+.owl-dot.active,
+.owl-dot:hover{
+    background: #89cff0!important;
 }
 /* aboutme section styling */
 .aboutme .title::after{
