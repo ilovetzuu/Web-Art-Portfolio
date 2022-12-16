@@ -70,14 +70,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-6", {
-        strings: ["James", "Michael","Diamante"],
+        strings: ["John", "Paolo","Aranda"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-7", {
-        strings: ["John", "Paolo","Aranda."],
+        strings: ["James", "Michael","Diamante"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
